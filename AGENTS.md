@@ -1,6 +1,6 @@
 # DepthCloud agent instructions
 
-The canonical project is `D:\10-SEP-2026\DepthCloud`. Work here even if the task initially opens in a different directory.
+The canonical project is `DepthCloud`. Work here even if the task initially opens in a different directory.
 
 ## Resume before acting
 On a fresh clone, `.agents/` is intentionally absent. Read `README.md` and `docs/DEVELOPMENT.md` instead; do not invent missing private history or redirect a clone to another workstation path.
@@ -17,3 +17,5 @@ On a fresh clone, `.agents/` is intentionally absent. Read `README.md` and `docs
 - Update the relevant `.agents` documents after each meaningful task: current state, completed work, evidence, open issues, and exact next step. Append history/changelog; distinguish facts, hypotheses, and proposals.
 - Do not mark checks as passing unless actually run. Document skipped checks and pre-existing failures.
 - All detailed project memory lives under `.agents\`. This root file is only the discovery entry point.
+
+> Note: This is for use case using codex or claude
