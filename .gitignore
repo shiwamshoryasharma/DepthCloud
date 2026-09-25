@@ -1,0 +1,27 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Installed runtimes, dependencies, model weights and generated output
+python/
+node_modules/
+dist/
+.models/
+.cache/
+.cache-publication/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Local agent memory and editor state
+.agents/
+.agent/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

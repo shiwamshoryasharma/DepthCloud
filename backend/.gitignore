@@ -1,0 +1,10 @@
+.env
+python/
+.models/
+__pycache__/
+*.log
+.cache/
+.pytest_cache/
+.ruff_cache/
+vendor/**/build/
+vendor/**/*.egg-info/

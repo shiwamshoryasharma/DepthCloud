@@ -1,0 +1,32 @@
+# Runtime dependencies for the attached DepthCloud specification.
+# Keep the verified CUDA build and NumPy version while adding the missing stack.
+-c runtime-constraints.txt
+fastapi
+uvicorn
+websockets
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+numpy
+opencv-python
+torch
+torchvision
+transformers
+timm
+safetensors
+pillow
+pillow-heif
+matplotlib
+scipy
+open3d==0.20.0
+trimesh
+mcp
+psutil
+httpx
+typing_extensions>=4.16.0
+# Development verification
+pytest
+pytest-asyncio
+ruff
+setuptools-scm
